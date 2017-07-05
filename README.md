@@ -1,7 +1,7 @@
 # getrooms
 get some live  platform rooms
 
-#Usage:
+# Usage:
 getrooms 
  -i int
     	input a integer as interval(min) (default 30)
