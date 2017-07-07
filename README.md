@@ -2,13 +2,8 @@
 get some live  platform rooms
 
 # Usage:
-getrooms 
- 
- -i int
-    	
+getrooms   [-i] [int]	
      input a integer as interval(min) (default 30)
       
 example:
->./getrooms
-or
-./getrooms -i 30
+>./getrooms  or  ./getrooms -i 30
