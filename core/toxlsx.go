@@ -16,7 +16,7 @@ func initxlsx(filename string) {
 	file = xlsx.NewFile()
 	sheet, _ = file.AddSheet("Sheet1")
 	row = sheet.AddRow()
-	strs := []string{"时间", "触手TV", "悟空TV", "大神TV", "企鹅电竞"}
+	strs := []string{"时间", "触手TV", "飞云TV", "大神TV", "企鹅电竞"}
 	for _, v := range strs {
 		cell := row.AddCell()
 		cell.Value = v
