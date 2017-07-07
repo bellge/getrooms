@@ -4,6 +4,6 @@
 # Usage:
 getrooms   [-i int]	
      -i为可选参数，指定采集数据的时间间隔，默认30分钟采集一次
-      
+
 example:
 >./getrooms  or  ./getrooms -i 30
