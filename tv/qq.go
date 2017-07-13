@@ -9,8 +9,9 @@ import (
 	"strconv"
 )
 
-const qqurl = "http://egame.qq.com/livelist?layoutid=hot&name=%E7%83%AD%E9%97%A8%E7%9B%B4%E6%92%AD"
-const qqmoreurl = "http://share.egame.qq.com/cgi-bin/pgg_skey_async_fcgi?&cgi_module=pgg_live_read_svr&cgi_method=get_live_list&p_tk=cMErwTMynmGdltrgrwC1dhsVBupV9Gg7ctCwz13NDj4_&g_tk=1661463292"
+//const qqurl = "http://egame.qq.com/livelist?layoutid=hot&name=%E7%83%AD%E9%97%A8%E7%9B%B4%E6%92%AD"
+//const qqmoreurl = "http://share.egame.qq.com/cgi-bin/pgg_skey_async_fcgi?&cgi_module=pgg_live_read_svr&cgi_method=get_live_list&p_tk=cMErwTMynmGdltrgrwC1dhsVBupV9Gg7ctCwz13NDj4_&g_tk=1661463292"
+const qqmoreurl = "http://share.egame.qq.com/cgi-bin/pgg_live_async_fcgi?&cgi_module=pgg_live_read_svr&cgi_method=get_live_list"
 
 var qqret QQResult
 
